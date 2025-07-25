@@ -64,13 +64,13 @@ npm install
 
 start backend
 ```bash
-cd ../client
+cd ../server
 npm start
 ```
 
 start frontend
 ```bash
-cd ../server
+cd ../client
 npm start
 ```
 
