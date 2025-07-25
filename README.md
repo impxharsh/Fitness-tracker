@@ -61,15 +61,18 @@ npm install
 ```
 
 ### 4. Run the App
-start frontend
-```bash
-cd ../server
-npm start
-```
 
 start backend
 ```bash
 cd ../client
 npm start
 ```
+
+start frontend
+```bash
+cd ../server
+npm start
+```
+
+
 
