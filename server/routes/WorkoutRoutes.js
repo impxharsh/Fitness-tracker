@@ -3,9 +3,9 @@ const router = express.Router();
 const jwt = require("jsonwebtoken");
 const Workout = require("../models/Workout");
 
-// Middleware to authenticate and extract user ID
+// Middleware to authenticate and extract user ID-- custom middleware
 const authenticate = (req, res, next) => {
-  const token = req.headers.authorization?.split(" ")[1];
+  const token = req.headers.authorization.split(" ")[1];
   if (!token) return res.status(401).json({ message: "No token provided" });
 
   try {
